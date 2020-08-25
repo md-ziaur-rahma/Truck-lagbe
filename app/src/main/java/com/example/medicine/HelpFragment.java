@@ -1,4 +1,4 @@
-package com.example.trucklagbe;
+package com.example.medicine;
 
 import android.os.Bundle;
 
@@ -8,10 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Help extends Fragment {
+public class HelpFragment extends Fragment {
 
 
-    public Help() {
+    public HelpFragment() {
         // Required empty public constructor
     }
 

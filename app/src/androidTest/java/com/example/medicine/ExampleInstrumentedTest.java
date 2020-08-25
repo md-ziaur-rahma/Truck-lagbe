@@ -1,4 +1,4 @@
-package com.example.trucklagbe;
+package com.example.medicine;
 
 import android.content.Context;
 
