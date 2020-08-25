@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Truck lagbe</string>
+    <string name="give_number_text">আপনার মোবাইল নাম্বার</string>
+    <string name="toolbar_text">ট্রাক লাগবে</string>
+    <string name="number_hint">মোবাইল নাম্বার প্রবেশ করান</string>
+    <string name="go_ahead">এগিয়ে যান</string>
+    <string name="info1">এগিয়ে যাওয়া দ্বারা আপনি আমাদের </string>
+    <string name="info2">ব্যবহারের শর্তাবলী </string>
+    <string name="info3">এবং </string>
+    <string name="info4">গোপনীয়তা মেনে নিচ্ছেন।</string>
+    <string name="app__name">ট্রাক ভাড়ার\n১ নম্বর অ্যাপ</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">আব্দুল্লাহ মাসুদ</string>
+    <string name="nav_header_subtitle">01709347512</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_title">হোম</string>
+    <string name="help_title">সাহায্য</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="discount_title">ডিসকাউন্ট</string>
+    <string name="trip_history_title">ট্রিপ হিস্টরি</string>
+
+    <string name="menu_home">চলতি ট্রিপ</string>
+    <string name="menu_trip_history">ট্রিপ হিস্টরি</string>
+    <string name="menu_discount">ডিসকাউন্ট</string>
+    <string name="menu_settings">সেটিংস</string>
+    <string name="menu_help">সাহায্য</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
