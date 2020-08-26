@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.medicine.Varification"></activity>
+        <activity android:name=".SpecificCategory"></activity>
+        <activity android:name=".Varification" />
         <activity
-            android:name="com.example.medicine.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.medicine.SplashScreen" />
-        <activity android:name="com.example.medicine.SigninPage">
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".SigninPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

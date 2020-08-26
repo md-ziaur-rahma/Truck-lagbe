@@ -21,7 +21,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
 
-    private static final int COLTI_FRAGMENT=0;
+    private static final int CATEGORY_FRAGMENT=0;
     private static final int TRIP_HISTORY_FRAGMENT=1;
     private static final int DISCOUNT_FRAGMENT=2;
     private static final int SETTINGS_FRAGMENT=3;
@@ -60,17 +60,17 @@ public class MainActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-        gotoFragment(getString(R.string.home_title),new Coltitrip(),COLTI_FRAGMENT);
+        gotoFragment("Easy Health Care",new CategoryFragment(),CATEGORY_FRAGMENT);
 
     }
 
     @Override
     public void onBackPressed() {
-        if (currentFragment == COLTI_FRAGMENT){
+        if (currentFragment == CATEGORY_FRAGMENT){
             currentFragment = -1;
             super.onBackPressed();
         }else {
-            gotoFragment(getString(R.string.home_title), new Coltitrip(),COLTI_FRAGMENT);
+            gotoFragment("Easy Health Care", new CategoryFragment(),CATEGORY_FRAGMENT);
             navigationView.getMenu().getItem(0).setChecked(true);
         }
     }
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home){
-            gotoFragment(getString(R.string.home_title),new Coltitrip(),COLTI_FRAGMENT);
+            gotoFragment("Easy Health Care",new CategoryFragment(),CATEGORY_FRAGMENT);
         }else if (id == R.id.nav_trip_hostory){
             gotoFragment(getString(R.string.trip_history_title),new TripHistoryFragment(),TRIP_HISTORY_FRAGMENT);
         }else if (id == R.id.nav_discount){
