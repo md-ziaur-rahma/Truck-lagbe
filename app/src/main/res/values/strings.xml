@@ -29,14 +29,26 @@
     <string name="menu_help">সাহায্য</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    
-    
+
+
     <!-- Doctors Details String -->
     <string name="dr_kaji_eduQulification">MBBS (Sir Salimullah Medical College and Mitford Hospital),\n
 FCPS (Medicine)\n
 MRCP (England)\n
 MD(Cardiology, BSMMU, PG Hospital, Dhaka)
 </string>
+
+    <string name="doctorsDetails">-Dr. Mohammod Hossain is a 32 years experienced
+physician. He has vast experience in working with
+critical patients of skin, allergy sexually transmitted
+deseases and sexology.\n\n
+
+-He also has 26 years working experience in skin Dept.
+of Dhaka Medecal College Hospital and Mitford Hospital in
+different capacities. At present he is working as Senior
+Consultant of Dermatjology and Venereology in\n\n
+
+-300 Bedded Hospital, Narayanganj</string>
 
     <string name="drKaji_institute">National Institute of Cardiovascular Deseases and Kuwait Bangladesh Friendship Government Hospital</string>
 

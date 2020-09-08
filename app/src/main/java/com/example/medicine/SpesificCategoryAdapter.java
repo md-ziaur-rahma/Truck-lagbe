@@ -1,5 +1,6 @@
 package com.example.medicine;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,8 +63,8 @@ public class SpesificCategoryAdapter extends RecyclerView.Adapter<SpesificCatego
 
         }
 
-        public void setData(int image, String name, String category,
-                            String eduQualification, String designation, String institute, String consultantFee ){
+        public void setData(final int image, final String name, final String category,
+                            final String eduQualification, final String designation, final String institute, final String consultantFee ){
             drImage.setImageResource(image);
             drName.setText(name);
             drCategory.setText(category);
@@ -71,6 +72,23 @@ public class SpesificCategoryAdapter extends RecyclerView.Adapter<SpesificCatego
             this.institute.setText(institute);
             drDesignatioln.setText(designation);
             this.consultantFee.setText("Consultant Fee - "+consultantFee);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(itemView.getContext(),DoctorDetails.class);
+                    intent.putExtra("image",image);
+                    intent.putExtra("name",name);
+                    intent.putExtra("category",category);
+                    intent.putExtra("drEduQualification",eduQualification);
+                    intent.putExtra("dedignation",designation);
+                    intent.putExtra("institute",institute);
+                    intent.putExtra("consultantFee",consultantFee);
+
+                    itemView.getContext().startActivity(intent);
+
+                }
+            });
         }
     }
 }

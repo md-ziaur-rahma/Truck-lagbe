@@ -5,11 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Doctors Point"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SpecificCategory"></activity>
+        <activity android:name=".DoctorDetails"
+            android:theme="@style/DoctorsDetailsTheme"></activity>
+        <activity android:name=".SpecificCategory" />
         <activity android:name=".Varification" />
         <activity
             android:name=".MainActivity"

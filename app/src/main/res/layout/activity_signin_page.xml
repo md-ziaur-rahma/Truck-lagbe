@@ -20,29 +20,12 @@
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:layout_scrollInterpolator="@android:anim/decelerate_interpolator"
 
-            app:title="@string/toolbar_text"
+            app:title="Diagonostic"
 
-            android:background="@drawable/collapse_image"
+            android:background="@drawable/jeamc_hospital"
             app:contentScrim="?attr/colorAccent">
 
-            <LinearLayout
-                android:layout_width="100dp"
-                android:layout_height="65dp"
-                android:layout_gravity="center"
-                android:background="@drawable/collapse_sticer_back"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/app__name"
-                    android:textColor="@color/colorAccent"
-                    android:textAlignment="center"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
